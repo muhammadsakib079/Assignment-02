@@ -1,0 +1,73 @@
+/* Font Installation  */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+/* Universal Style  */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header Style */
+header{
+    max-width: 1440px;
+    margin: 3vh auto 0 auto;
+}
+/* Navigation Bar  */
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-div-01{
+    display: flex;
+    align-items: center;
+}
+.nav-div-01 h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-div-02 ul{
+    display: flex;
+    list-style: none;
+    gap: 3vw;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-div-03 button{
+    height: 50px;
+    width: 150px;
+    color: white;
+    background: rgb(254, 163, 1);
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* Section - 01 */
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-01-div-01{
+    max-width: 650px;
+}
+.section-01-div-01 h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+.section-01-div-01 p{
+    font-size: 20px;
+    font-weight: 400;
+}
+#Empowering{
+    color: rgb(254, 163, 1);
+}
+#towards-vision{
+    color: rgb(1, 172, 253);
+}
