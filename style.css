@@ -12,7 +12,10 @@
     margin: 0;
     padding: 0;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
 /* Header Style */
 header {
     max-width: 1440px;
@@ -160,9 +163,40 @@ header {
 
 
 
+/* Footer Style */
+
+footer{
+    background: rgb(1, 172, 253);
+    color: white;
+}
+.footer-section{
+    max-width: 1440px;
+    margin: 3vh auto 0 auto;
+    padding: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-section-div-01{
+    display: flex;
+    align-items: center;
+    max-width: 150px;
+}
+.footer-header h2{
+    font-size: 42.14px;
+    font-weight: 700;
+}
+.footer-img img{
+    width: 120px;
+}
 
 
+.footer-nav ul{
+    list-style: none;
+}
 
+.last-icons{
+    display: flex;
+}
 
 hr{
     display: none;
@@ -217,6 +251,10 @@ hr{
 
 
 
-
+.footer-section{
+    display: grid;
+    grid-column: auto;
+    gap: 5vh;
+}
 
 }
