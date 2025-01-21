@@ -1,12 +1,18 @@
 /* Font Installation  */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 .quicksand {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
-
+.raleway{
+    
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
 /* Universal Style  */
 * {
     margin: 0;
@@ -16,7 +22,9 @@ a{
     text-decoration: none;
     
 }
-
+.color-p{
+    color: rgb(128, 128, 128);
+}
 /* Header Style */
 header {
     max-width: 1280px;
@@ -144,6 +152,7 @@ header {
     text-align: center;
     align-content: center;
     border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.062);
 }
 #b1{
     background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
@@ -160,6 +169,7 @@ header {
 .box h4{
     font-size: 24.52px;
     font-weight: 700;
+    margin-top: 3vh;
 }
 .box p{
     font-size: 15.09px;
@@ -175,8 +185,8 @@ header {
     display: flex;
     justify-content: center;
     gap: 3vw;
-    margin-top: 12vh;
-    margin-bottom: 10vh;
+    margin-top: 15vh;
+    margin-bottom: 20vh;
 }
 .arrows img{
     max-width: 70px;
@@ -193,40 +203,52 @@ header {
     text-align: center;
     font-size: 46px;
     font-weight: 700;
-    margin-top: 8vh;
-    margin-bottom: 8vh;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
 }
 .story-margim{
     max-width: 1280px;
     margin: 3vh auto 0 auto;
 }
 .container-02{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     justify-content: center;
     gap: 30px;
     padding-bottom: 20vh;
 
 }
 .layer-01{
-    width: 540px;
+    width: auto;
     background-color: rgb(255, 255, 255);
     border-radius: 16px;
 }
-.over-l{
+#over-1{
     position: relative;
-    height: 50px;
-    width: 190px;
+    height: 3vw;
+    width: 10vw;
     bottom: 5%;
     left: 5%;
-    border: 1px aquamarine;
     border-radius: 20px;
-    background: aquamarine;
+    background: rgb(60, 216, 232);
+    text-align: center;
+    align-content: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+.over-l{
+    position: relative;
+    height: 3vw;
+    width: 10vw;
+    bottom: 10%;
+    left: 5%;
+    border-radius: 20px;
     text-align: center;
     align-content: center;
 }
 .over-l h6{
     font-size: 15.34px;
-    font-weight: 500;
+    font-weight: 800;
 }
 .story-img img{
     border-radius: 16px 16px 0 0;
@@ -256,28 +278,13 @@ header {
 .card-info h5{
     font-size: 15.34px;
     font-weight: 700;
+    padding-bottom: 3vh;
 }
 .card-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Footer Style */
@@ -380,6 +387,12 @@ nav{
 .hide{
     display: none;
 }
+.main-01-header h2{
+    margin-bottom: 5vh;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
 .header-section{
     display: grid;
     grid-template-columns: auto;
@@ -411,22 +424,27 @@ nav{
 .layer-01{
     display: none;
 }
+.container-02{
+    display: flex;
+    justify-content: center;
+}
 .card-container{
     margin-left: 5vw;
     margin-right: 5vw;
 }
-
-
-
-
-
+.over-l{
+    height: 5vh;
+    width: 25vw;
+}
+.over-l h6{
+    font-size: 10px;
+    font-weight: 600;
+}
 
 .footer-section{
     display: grid;
     grid-column: auto;
-    justify-content: center;
-    text-align: center;
-    gap: 18vh;
+    gap: 10vh;
 }
 .footer-section-div-01{
     display: grid;
