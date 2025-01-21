@@ -18,10 +18,23 @@
     margin: 0;
     padding: 0;
 }
+@keyframes slide-in {
+    from {
+      transform: translateX(100%);
+    }
+  
+    to {
+      transform: translateX(0%);
+    }
+  }
+body{
+    animation: slide-in 1s forwards;
+}
 a{
     text-decoration: none;
     
 }
+
 .color-p{
     color: rgb(128, 128, 128);
 }
@@ -235,6 +248,7 @@ header {
     align-content: center;
     font-size: 25px;
     font-weight: 800;
+    color: white;
 }
 .over-l{
     position: relative;
@@ -249,6 +263,7 @@ header {
 .over-l h6{
     font-size: 15.34px;
     font-weight: 800;
+    color: white;
 }
 .story-img img{
     border-radius: 16px 16px 0 0;
@@ -279,6 +294,7 @@ header {
     font-size: 15.34px;
     font-weight: 700;
     padding-bottom: 3vh;
+    padding-right: 0;
 }
 .card-container{
     display: grid;
@@ -300,11 +316,15 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+.footer-align{
+    max-width: 450px;
+}
 .footer-section-div-01{
     display: flex;
     align-items: start;
     gap: 1.5vw;
     max-width: 150px;
+    margin-bottom: 2vh;
 }
 .footer-header h2{
     margin-top: 12px;
@@ -343,9 +363,13 @@ footer{
     gap: 1vw;
 }
 
-/* hr{
-    display: none;
-} */
+button:hover{
+    background: rgb(1, 172, 253);
+    transform: scale(150%);
+    transition: all 1s;
+}
+
+
 @media screen and (max-width: 1080px) {
 header{
     margin-top: 0;
