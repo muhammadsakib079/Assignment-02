@@ -37,7 +37,6 @@ body {
 
 a {
     text-decoration: none;
-
 }
 
 .color-p {
@@ -206,8 +205,7 @@ header {
 .box p {
     font-size: 15.09px;
     font-weight: 500;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin: 35px 15px 35px 15px;
 }
 
 .box h6 {
@@ -423,7 +421,10 @@ button:hover {
     header {
         margin-top: 0;
     }
-
+    .font-m{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
     nav {
         border: 2px solid orange;
         border-radius: 5px;
