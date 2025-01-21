@@ -54,6 +54,7 @@ header {
 .i-nav{
     display: none;
 }
+
 .RFSD{
     display: none;
 }
@@ -69,13 +70,21 @@ header {
 .primary-btn a{
     color: white;
 }
-
+.font-m{
+    margin-top: 3vh;
+    height: 5vh;
+    align-content: center;
+    border: 2px solid green;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
 /* Section - 01 */
 .header-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15vh;
+    margin-top: 7vh;
 }
 
 .section-01-div-01 {
@@ -114,7 +123,7 @@ header {
     background-size: 100%;
 }
 .main-01-div-01{
-    max-width: 1440px;
+    max-width: 1280px;
     margin: 3vh auto 0 auto;
 }
 .main-01-header h2{
@@ -203,6 +212,22 @@ header {
     background-color: rgb(255, 255, 255);
     border-radius: 16px;
 }
+.over-l{
+    position: relative;
+    height: 50px;
+    width: 190px;
+    bottom: 5%;
+    left: 5%;
+    border: 1px aquamarine;
+    border-radius: 20px;
+    background: aquamarine;
+    text-align: center;
+    align-content: center;
+}
+.over-l h6{
+    font-size: 15.34px;
+    font-weight: 500;
+}
 .story-img img{
     border-radius: 16px 16px 0 0;
     width: 100%;
@@ -258,7 +283,7 @@ header {
 /* Footer Style */
 
 footer{
-    background: rgb(1, 172, 253);
+    background: rgba(1, 173, 253, 0.719);
     color: white;
 }
 .footer-section{
@@ -270,10 +295,12 @@ footer{
 }
 .footer-section-div-01{
     display: flex;
-    align-items: center;
+    align-items: start;
+    gap: 1.5vw;
     max-width: 150px;
 }
 .footer-header h2{
+    margin-top: 12px;
     font-size: 42.14px;
     font-weight: 700;
 }
@@ -281,19 +308,46 @@ footer{
     width: 120px;
 }
 
+.footer-nav h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5vh;
+}
 
 .footer-nav ul{
     list-style: none;
 }
-
+.footer-nav ul li{
+    margin-bottom: 3vh;
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.icons h4{
+    font-size: 26px;
+    font-weight: 700;
+}
 .last-icons{
+    margin-top: 2vh;
     display: flex;
+    gap: 1vw;
 }
 
-hr{
+/* hr{
     display: none;
-}
+} */
 @media screen and (max-width: 1080px) {
+header{
+    margin-top: 0;
+}
+nav{
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 1vw;
+}
 .margin{
     max-width: 430px;
     margin-left: auto;
@@ -310,11 +364,12 @@ hr{
     display: block;
     margin-right: 3vw;
 }
-hr{
+/* hr{
     margin-top: 20px;
     margin-bottom: 20px;
     display: block;
-}
+    border-top: 2px solid orange;
+} */
 .RFSD{
     display: flex;
     justify-content: center;
@@ -369,7 +424,13 @@ hr{
 .footer-section{
     display: grid;
     grid-column: auto;
-    gap: 5vh;
+    justify-content: center;
+    text-align: center;
+    gap: 18vh;
+}
+.footer-section-div-01{
+    display: grid;
+    grid-column: auto;
 }
 
 }
