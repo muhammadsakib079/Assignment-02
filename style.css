@@ -14,12 +14,13 @@
 }
 a{
     text-decoration: none;
-    color: white;
+    
 }
+
 /* Header Style */
 header {
     max-width: 1440px;
-    margin: 3vh auto 0 auto;
+    margin: 3vh auto 15vh auto;
 }
 
 /* Navigation Bar  */
@@ -52,12 +53,14 @@ header {
 .primary-btn {
     height: 50px;
     width: 150px;
-    color: white;
     background: rgb(254, 163, 1);
     border: none;
     border-radius: 12px;
     font-size: 18px;
     font-weight: 400;
+}
+.primary-btn a{
+    color: white;
 }
 
 /* Section - 01 */
@@ -65,6 +68,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 15vh;
 }
 
 .section-01-div-01 {
@@ -79,8 +83,9 @@ header {
 .section-01-div-01 p {
     font-size: 20px;
     font-weight: 400;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    line-height: 3vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 .section-01-div-01 button {
@@ -122,10 +127,19 @@ header {
     width: 350px;
     text-align: center;
     align-content: center;
-    border: 0.94px solid rgb(255, 244, 220);
     border-radius: 18.86px;
-    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-
+}
+#b1{
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    border: 0.94px solid rgb(222, 245, 255);
+}
+#b2{
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    border: 0.94px solid rgb(255, 244, 220);
+}
+#b3{
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    border: 0.94px solid rgb(242, 232, 255);
 }
 .box h4{
     font-size: 24.52px;
@@ -141,10 +155,70 @@ header {
     font-size: 15.09px;
     font-weight: 700
 }
-
-
-
-
+.arrows{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    margin-top: 15vh;
+    margin-bottom: 20vh;
+}
+.arrows img{
+    max-width: 70px;
+}
+#arrow{
+    rotate: 180deg;
+}
+#Story{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+    margin-top: 10vh;
+    margin-bottom: 12vh;
+}
+.story-margim{
+    max-width: 1440px;
+    margin: 3vh auto 0 auto;
+}
+.container-02{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.layer-01{
+    width: 540px;
+    background-color: rgb(228, 197, 197);
+    border-radius: 16px;
+}
+.story-img img{
+    border-radius: 16px 16px 0 0;
+    width: 100%;
+}
+.box-02{
+    padding: 30px;
+}
+.box-02 h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.Ex-mark{
+    background: red;
+}
+.card{
+    width: auto;
+    /* height: 300px; */
+    background: rgb(211, 143, 143);
+    border-radius: 16px
+}
+.card-info{
+    height: ;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
 
 
 
@@ -225,6 +299,7 @@ hr{
 .header-section{
     display: grid;
     grid-template-columns: auto;
+    margin-top: 2.5vh;
 }
 .section-01-div-01{
     text-align: center;
@@ -232,6 +307,10 @@ hr{
 .section-01-div-01 h1{
     margin-top: 3vh;
     font-size: 2.5em;
+}
+.section-01-div-01 p {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 .section-01-div-02{
     display: none;
@@ -242,9 +321,15 @@ hr{
     gap: 5vh;
     justify-content: center;
 }
-
-
-
+.arrows{
+    display: none;
+}
+.layer-01{
+    display: none;
+}
+.card-container{
+    grid-template-columns: repeat(1,1fr);
+}
 
 
 
