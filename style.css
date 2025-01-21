@@ -439,6 +439,7 @@ button:hover {
 
     .iii-nav {
         display: block;
+        border-radius: 10px;
         margin-bottom: 4px;
         height: 5px;
         width: 30px;
