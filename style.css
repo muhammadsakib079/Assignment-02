@@ -268,8 +268,8 @@ header {
 
 #over-1 {
     position: relative;
-    height: 4vw;
-    width: 12vw;
+    height: 3vw;
+    width: 10vw;
     bottom: 5%;
     left: 5%;
     border-radius: 20px;
@@ -283,8 +283,8 @@ header {
 
 .over-l {
     position: relative;
-    height: 4vw;
-    width: 12vw;
+    height: 3vw;
+    width: 10vw;
     bottom: 10%;
     left: 5%;
     border-radius: 20px;
@@ -326,7 +326,7 @@ header {
 
 .card-info {
     text-align: start;
-    padding: 30px;
+    padding: 20px;
 }
 
 .card-info h5 {
@@ -525,8 +525,8 @@ button:hover {
     }
 
     .over-l {
-        height: 5vh;
-        width: 25vw;
+        height: 6vh;
+        width: 28vw;
     }
 
     .over-l h6 {
