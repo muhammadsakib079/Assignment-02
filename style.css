@@ -19,7 +19,7 @@ a{
 
 /* Header Style */
 header {
-    max-width: 1440px;
+    max-width: 1280px;
     margin: 3vh auto 15vh auto;
 }
 
@@ -188,7 +188,7 @@ header {
     margin-bottom: 8vh;
 }
 .story-margim{
-    max-width: 1440px;
+    max-width: 1280px;
     margin: 3vh auto 0 auto;
 }
 .container-02{
@@ -262,7 +262,7 @@ footer{
     color: white;
 }
 .footer-section{
-    max-width: 1440px;
+    max-width: 1280px;
     margin: 0 auto 0 auto;
     padding: 5vw;
     display: flex;
@@ -293,7 +293,7 @@ footer{
 hr{
     display: none;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1080px) {
 .margin{
     max-width: 430px;
     margin-left: auto;
