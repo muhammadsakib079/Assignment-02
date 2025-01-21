@@ -254,7 +254,7 @@ header {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     gap: 30px;
-    padding-bottom: 20vh;
+    padding-bottom: 10vh;
 
 }
 
@@ -339,8 +339,14 @@ header {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
-
-
+.view-all{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10vh;
+}
+.view-all button{
+    background: black;
+}
 /* Footer Style */
 
 footer {
