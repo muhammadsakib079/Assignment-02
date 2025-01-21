@@ -209,8 +209,8 @@ header {
 }
 
 .box h6 {
-    font-size: 15.09px;
-    font-weight: 700
+    font-size: 16.5px;
+    font-weight: 800
 }
 
 .arrows {
@@ -218,7 +218,7 @@ header {
     justify-content: center;
     gap: 3vw;
     margin-top: 15vh;
-    margin-bottom: 20vh;
+    margin-bottom: 15vh;
 }
 
 .arrows img {
@@ -240,8 +240,8 @@ header {
     text-align: center;
     font-size: 46px;
     font-weight: 700;
-    margin-top: 15vh;
-    margin-bottom: 5vh;
+    margin-top: 10vh;
+    margin-bottom: 8vh;
 }
 
 .story-margim {
